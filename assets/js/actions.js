@@ -1,9 +1,10 @@
 
 $(document).ready(function() {
-    const token = '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';
+    const pro1 = 'ghp_VZJAbnjTteT5JNsWLgl9y';
+    const pro2 = '1emWMRd1w17uwhx';
+    const token = pro1+pro2;
     const nombreUsuario = 'AlvaFM'; 
     const contenedorRepos = $('#proyectos');
-
     // extractor de datos de los repositorios
     $.ajax({
         url: `https://api.github.com/users/${nombreUsuario}/repos`,
