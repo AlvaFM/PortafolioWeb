@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    const token = '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';
+    const token = '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';
     const nombreUsuario = 'AlvaFM'; 
     const contenedorRepos = $('#proyectos');
 
